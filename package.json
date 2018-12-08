@@ -1,0 +1,24 @@
+{
+  "name": "jahwebofficial",
+  "version": "1.0.0",
+  "description": "Express Static Server =====================",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.13.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jahopp23/jahwebofficial.git"
+  },
+  "author": "John A. Hopper",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jahopp23/jahwebofficial/issues"
+  },
+  "homepage": "https://github.com/jahopp23/jahwebofficial#readme"
+}

@@ -19,3 +19,6 @@ app.listen(8080);
 
 // Log a message to the console.
 console.log("Server is up!");
+console.log("Port: 8080.");
+
+
