@@ -1,5 +1,46 @@
 body {
-    max-width: 50em;
+   
     margin: auto;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: black;
+}
+
+nav .navbar .bg-dark{
+	background-color: black !important;
+}
+
+
+#hero-section .hero-image{
+    background: url('cmatrix_001.gif');
+    background-repeat: repeat;
+   /* background-position: 50% 50%;*/
+    background-size: 50%;
+    height: 250px;	
+    width: 100%;
+}
+
+#hero-section h3{
+	color: white;
+	font-weight: bolder;
+	font-size: 3.00em;
+	position: relative;
+	top: 3.00em;
+
+}
+
+#hero-section {
+	text-align: center;
+}
+
+.navbar{
+	background-color: red;
+}
+}
+
+#services-section {
+	background: black;
+}
+
+#services-section .jumbotron h1{
+	font-size: 3.00em;
 }
