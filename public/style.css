@@ -57,6 +57,20 @@ nav.navbar-dark a.nav-link:active {
 	background: rgb(0, 105, 217);
 }
 
+#services .col-lg-9{
+	display: inline-block;
+	margin-left: 3.00em;
+	
+}
+
+#services .col-lg-9 .col-sm-1 {
+	margin-left: 0.00em;
+}
+
+#services .col-lg-9 .col-sm-1 img{
+	margin: 1.00em;
+}
+
 .section-title {
 	width: 100%;
 	height: 65px;
@@ -78,7 +92,7 @@ nav.navbar-dark a.nav-link:active {
 
 .jumbotron-1{
 	/*background-color: lightblue;*/
-	background-color: #F0F0F0;
+	background-color: rgb(0, 105, 217);
 
 	width:100%;
 	/*height: 250px;*/
@@ -91,16 +105,32 @@ nav.navbar-dark a.nav-link:active {
 /*	text-align: center;*/
 }
 
-.jumbotron-1 h1{
+#services .card .card-title{
 	
 	position: relative; 
-
+    font-size: 2.00em;
 	padding-left:1.00em;
-	color: rgb(0, 105, 217);
-	font-weight: bolder;
-	text-shadow: 3px 1px 0px black;
+	color: white;
+    font-weight: bold;
 
 	
+}
+
+#services .jumbotron-1 .card-body {
+	display: flex;
+	flex-direction: column;
+	
+
+}
+
+#services .jumbotron-1 .card-header{
+	background-color: rgb(0, 105, 217);
+	
+
+}
+
+#services .jumbotron-1 .card-body .card-text {
+	color: white !important;
 }
 
 .jumbotron-2 h1{
@@ -162,9 +192,10 @@ ul.full-stack-list {
 
 
 
-.full-stack-list ul li{
+#services .jumbotron-1 .card-text ul.full-stack-list-2 li{
 	padding: 4.00em;
 	list-style-type: none;
+	margin-bottom: 1.00em;
 }
 
 .full-stack-list li{
@@ -206,6 +237,16 @@ ul.full-stack-list-2{
 
 .jumbotron-fluid {
 	/*border-bottom: solid 10px blue; */
-   
+  /* background-color: rgb(0, 105, 217) !important;*/
+  background-color: #E0E0E0 !important;
 }
+
+ul.full-stack-list-2 .lead{
+	margin-bottom:1.00em !important;
+}
+
+#services .jumbotron-1 .card .card-text img{
+	margin:1.00em;
+}
+
 
