@@ -33,6 +33,7 @@ nav{
 
 .navbar-brand {
 	color: white !important;
+	font-weight: bold;
 }
 
 .col-sm-1 {
