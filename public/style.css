@@ -5,6 +5,15 @@ body {
     color: black;
 }
 
+a {
+	outline: none;
+	text-decoration: none;
+}
+
+p{
+	outline: none;
+}
+
 nav{
 	background-color: black !important;
 	
@@ -71,6 +80,10 @@ nav.navbar-dark a.nav-link:active {
 	color: rgb(0, 123, 255) !important;
 }
 
+#home .jumbotron-fluid h1{
+	font-weight: bolder;
+	text-shadow: 0px 5px 5px darkgray;
+}
 
 
 #services {
@@ -115,7 +128,7 @@ nav.navbar-dark a.nav-link:active {
 }
 
 #services .full-stack-web-applications{
-	height: 75px;
+	height: 100px;
 	background-color:/*rgb(40, 167, 69);*/lightgreen;
 	color: white;
 	width: 100%;
@@ -131,9 +144,10 @@ nav.navbar-dark a.nav-link:active {
 #services .full-stack-web-applications h1{
 	font-weight: bolder;
 	font-size: 2.00em;
-	padding-top: 0.25em;
+	padding-top: 0.75em;
 	padding-bottom: 0.25em;
 	margin-left: 2.00em;
+
 	
 }
 
@@ -212,6 +226,11 @@ nav.navbar-dark a.nav-link:active {
 .jumbotron-3 ul.full-stack-list-2{
 	list-style-type: none;
 	text-align: center;
+
+}
+
+.jumbotron-fluid ul.full-stack-list-2 li{
+	font-weight: bolder;
 }
 
 #services .jumbotron-2 {
@@ -302,7 +321,7 @@ nav.navbar-dark a.nav-link:active {
 }
 
 #about {
-	margin-top: -1.00em;
+	margin-top: -4.00em;
 }
 
 .jumbotron-fluid {
@@ -331,7 +350,7 @@ ul.full-stack-list-2 .lead{
 
 #services .front-end-web-development {
 	width: 100%;
-	height: 75px;
+	height: 100px;
 	background-color: rgb(220, 53, 69);
 	text-align: center;
 	margin-top: -2.00em;
@@ -341,7 +360,7 @@ ul.full-stack-list-2 .lead{
 #services .front-end-web-development h1{
 	color: white;
 	font-weight: bolder;
-	padding-top: 0.25em;
+	padding-top: 0.75em;
 	padding-bottom: 0.50em;
 	font-size: 2.00em;
 	margin-left: 2.00em;
@@ -350,7 +369,7 @@ ul.full-stack-list-2 .lead{
 
 #services .user-interface{
 	width: 100%;
-	height: 75px;
+	height: 100px;
 	background-color: rgb(0, 105, 217);
 	text-align: center;
 	margin-top: -2.00em;
@@ -361,7 +380,7 @@ ul.full-stack-list-2 .lead{
 #services .user-interface h1{
 	color: white;
 	font-weight: bolder;
-	padding-top: 0.25em;
+	padding-top: 0.75em;
 	padding-bottom: 0.50em;
 	font-size: 2.00em;
 	margin-left: 2.00em;
@@ -394,15 +413,33 @@ ul.full-stack-list-2 .lead{
 #services .front-end-image-list li{
 	list-style-type: none;
 	display: inline;
-    padding-left: 0.25em;
-    padding: 1.00em;
+;
+
+
+}
+
+#services .front-end-image-list li img{
+   padding: 0.50em;
+}
+
+#services .front-end-image-list {
+	display: inline;
+
+
 }
 
 #contact .btn-primary a{
 	color: white;
 }
 
+#contact ul{
+	display: inline;
+}
 
+#contact ul li.lead{
+	display: inline-block;
+	padding-left: 1.50em;
+}
 
 
 #contact ul.seek-positions li{
@@ -411,7 +448,9 @@ ul.full-stack-list-2 .lead{
 	list-style-type: square;
 }
 
-#contact .contact-card{
+#contact{
+	margin-top: -3.00em;
+
 
 }
 
@@ -419,3 +458,49 @@ ul.full-stack-list-2 .lead{
 	margin-top: 3.00em;
 	margin-bottom: 3.00em;
 }
+
+#work li.lead{
+	font-size: 1.00em;
+}
+
+#work h3{
+	font-weight: bold;
+}
+
+#work{
+	margin-top: -3.00em;
+}
+
+#portfolio {
+	margin-top: -3.00em;
+}
+
+#portfolio a{
+	color: rgb(33, 37, 41);
+}
+
+#portfolio a:hover{
+	color: #007bff;
+	text-decoration:none;
+}
+#footer{
+	height: 250px;
+	width: 100%;
+	background-color: black;
+	margin-top: -3.00em;
+}
+
+#footer p{
+	color: white;
+	margin: 1.00em;
+	padding-top: 3.00em;
+	font-weight: bold;
+}
+
+#footer i {
+	color: white;
+	font-size: 3.00em;
+	padding-left: 1.00em;
+	outline: none;
+}
+

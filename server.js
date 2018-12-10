@@ -5,7 +5,7 @@ var bodyParser = require('body-parser');
 // Create a new application instance
 var app = express();
 // nodemailer for email 
-var nodemailer = require('nodemailer');
+// var nodemailer = require('nodemailer');
 var fa = require('fontawesome');
 
 // Use Express's built-in static file server
@@ -14,7 +14,10 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use('/js', express.static(__dirname + '/node_modules/bootstrap/dist/js')); // redirect bootstrap JS
 app.use('/js', express.static(__dirname + '/node_modules/jquery/dist'));
 // app.use('/js', express.static(__dirname + '/node_modules/popper/dist')); // redirect JS jQuery
-app.use('/css', express.static(__dirname + '/node_modules/bootstrap/dist/css')); // redirect CSS bootstrap
+app.use('/css', express.static(__dirname + '/node_modules/bootstrap/dist/css'));
+// font awesome components
+app.use('/components-font-awesome/css', express.static(__dirname + '/bower_components/components_font_awesome/css'));
+ // redirect CSS bootstrap
 
 app.get('/', function(req, res){
 	res.render('index');
