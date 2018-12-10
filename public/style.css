@@ -50,7 +50,7 @@ nav{
     height: 475px;	
     width: 100%;
     position: relative;
-    top: -3.00em;
+    top: 0.00em;
 }
 
 #hero-section h3{
@@ -508,15 +508,25 @@ ul.full-stack-list-2 .lead{
 	padding-left: 1.00em;
 	outline: none;
 }
+/*
+@media only screen and (min-width: 414px) and(max-width: 736px){
+	#hero-section img{
+		position: relative;
+		top:-1.00em;
+	}
+}*/
 
-@media only screen and (max-width: 667px){
+@media only screen and (min-width: 319px) and (max-width: 812px){
 	#hero-section {
 		position: relative;
 		top: -2.00em;
-		height: 200px;
+		height: 390px;
 	}
 
 	#hero-section .hero-image {
+		position: relative; 
+		top: -3.00em;
+		background-size: 325%;
 	
 	}
 
