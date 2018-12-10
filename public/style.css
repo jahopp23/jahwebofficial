@@ -33,7 +33,7 @@ nav{
 
 .navbar-brand {
 	color: white !important;
-	font-weight: bold;
+
 }
 
 .col-sm-1 {
@@ -47,8 +47,10 @@ nav{
    /* background-position: 50% 50%;*/
     background-size: 100%;
     background-position: 60% 40%;
-    height: 400px;	
+    height: 475px;	
     width: 100%;
+    position: relative;
+    top: -3.00em;
 }
 
 #hero-section h3{
@@ -82,7 +84,7 @@ nav.navbar-dark a.nav-link:active {
 }
 
 #home .jumbotron-fluid h1{
-	font-weight: bolder;
+	
 	text-shadow: 0px 5px 5px darkgray;
 }
 
@@ -116,6 +118,7 @@ nav.navbar-dark a.nav-link:active {
 .section-title h1{
 	color: white;
     font-weight: bold;
+
 	font-size: 2.50em;
 	margin-left: 1.00em;
 	padding-top: 0.25em;
@@ -144,7 +147,7 @@ nav.navbar-dark a.nav-link:active {
 
 #services .full-stack-web-applications h1{
 	font-weight: bolder;
-	font-size: 2.00em;
+	font-size: 1.75sem;
 	padding-top: 0.75em;
 	padding-bottom: 0.25em;
 	margin-left: 2.00em;
@@ -220,18 +223,18 @@ nav.navbar-dark a.nav-link:active {
 	list-style-type: none;
 	color: black;
 	font-weight: bolder;
-	text-align: center;
+	text-align: left;
 
 }
 
 .jumbotron-3 ul.full-stack-list-2{
 	list-style-type: none;
-	text-align: center;
+	text-align: left;
 
 }
 
 .jumbotron-fluid ul.full-stack-list-2 li{
-	font-weight: bolder;
+	
 }
 
 #services .jumbotron-2 {
@@ -275,7 +278,7 @@ nav.navbar-dark a.nav-link:active {
 }
 
 #home .home-title h1{
-	font-weight: bolder;
+	
 	padding-top: 0.25em;
 }
 
@@ -291,7 +294,7 @@ nav.navbar-dark a.nav-link:active {
 }
 
 #services .jumbotron-1 ul.full-stack-list-2{
-	text-align: center;
+	text-align: left;
 	/*margin-top: 3.00em;*/
 
 }
@@ -462,6 +465,7 @@ ul.full-stack-list-2 .lead{
 
 #work li.lead{
 	font-size: 1.00em;
+	line-height: 2.00em;
 }
 
 #work h3{
@@ -495,7 +499,7 @@ ul.full-stack-list-2 .lead{
 	color: white;
 	margin: 1.00em;
 	padding-top: 3.00em;
-	font-weight: bold;
+	
 }
 
 #footer i {
@@ -503,5 +507,33 @@ ul.full-stack-list-2 .lead{
 	font-size: 3.00em;
 	padding-left: 1.00em;
 	outline: none;
+}
+
+@media only screen and (max-width: 667px){
+	#hero-section {
+		position: relative;
+		top: -2.00em;
+		height: 200px;
+	}
+
+	#hero-section .hero-image {
+	
+	}
+
+	#services .full-stack-web-applications h1 {
+		font-size: 1.50em;
+	}
+
+	#services .full-stack-web-applications {
+		text-align: center;
+	}
+
+	#services .front-end-web-development h1 {
+		font-size: 1.50em;
+	}
+
+	#services .user-interface h1 {
+		font-size: 1.50em;
+	}
 }
 
