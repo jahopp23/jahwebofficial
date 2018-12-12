@@ -32,6 +32,12 @@ app.get('/hi', function(req, res){
    res.send('Hello from Express!'); 
 });
 
+app.get('/photography', function(req, res){
+	res.render('photography');
+});
+
+
+
 // POST route for contact form 
 // app.post('/contact', function (req, res) {
 // 	let mailOpts, smtpTrans;
