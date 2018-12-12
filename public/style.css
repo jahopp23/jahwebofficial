@@ -226,6 +226,10 @@ nav.navbar-dark a.nav-link:active {
 	color: white;
 }
 
+#contact a.contact-link:hover {
+    color: red;
+}
+
 
 
 
