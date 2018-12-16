@@ -6,7 +6,7 @@
   "dependencies": {
     "body-parser": "^1.18.3",
     "bootstrap": "^4.1.3",
-    "express": "^4.13.3",
+    "express": "^4.16.4",
     "fontawesome": "^4.7.2",
     "jquery": "^3.3.1",
     "nodemailer": "^4.7.0",
@@ -16,7 +16,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "npm start"
   },
   "repository": {
     "type": "git",
