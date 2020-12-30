@@ -4,7 +4,7 @@ var express = require('express');
 var bodyParser = require('body-parser');
 // Create a new application instance
 var app = express();
-// nodemailer for email 
+// nodemailer for email
 // var nodemailer = require('nodemailer');
 var fa = require('fontawesome');
 
@@ -29,7 +29,7 @@ app.get('/', function(req, res){
 
 // Also respond to `GET` requests at the path '/hi'
 app.get('/hi', function(req, res){
-   res.send('Hello from Express!'); 
+   res.send('Hello from Express!');
 });
 
 app.get('/photography', function(req, res){
@@ -38,7 +38,7 @@ app.get('/photography', function(req, res){
 
 
 
-// POST route for contact form 
+// POST route for contact form
 // app.post('/contact', function (req, res) {
 // 	let mailOpts, smtpTrans;
 // 	smtpTrans = nodemailer.createTransport({
@@ -63,7 +63,7 @@ app.get('/photography', function(req, res){
 // 		}
 // 		else {
 // 			res.render('contact success!');
-			
+
 // 		}
 // 	});
 // });
@@ -75,5 +75,3 @@ app.listen(8080);
 // Log a message to the console.
 console.log("Server is up!");
 console.log("Port: 8080.");
-
-
